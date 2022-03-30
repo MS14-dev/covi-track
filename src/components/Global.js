@@ -2,6 +2,8 @@ import {Component} from 'react'
 import axios from 'axios'
 
 import '../style.css'
+import '../css/srilanka.css'
+import '../css/global.css'
 
 class Global extends Component {
 
@@ -27,12 +29,12 @@ class Global extends Component {
   render(){
     var {global_deaths,global_new_cases,global_new_deaths,global_total_cases} = this.state
      return (
-        <div className="container">
-          <div className="row">
-          <div className="col-md-6" style={{height:200,background:'greenyellow'}}><b>Global deaths:</b> {global_deaths}</div>
-          <div className="col-md-6"><b>Global New Cases:</b> {global_new_cases}</div>
-          <div className="col-md-6"><b >Global New Deaths:</b> {global_new_deaths}</div>
-          <div className="col-md-6"style={{height:200,background:'yellow'}}><b >Global Total Cases:</b> {global_total_cases}</div>
+        <div className="container-fluid"><br/>
+          <div className="row" id="global-outer-div">
+          <div className="col-md-6" id='global-new-deaths-div'><h1 >Global New Deaths: <b>{global_new_deaths}</b></h1></div>
+          <div className="col-md-6" id="global-new-cases-div"><h1>Global New Cases: <b>{global_new_cases}</b></h1></div>
+          <div className="col-md-6" id="global-deaths-div"><h1>Global deaths: <b>{global_deaths}</b></h1></div>
+          <div className="col-md-6" id="global-cases-div"><h1 >Global Total Cases: <b>{global_total_cases}</b></h1></div>
           </div>
         </div>
      );

@@ -1,0 +1,19 @@
+#global-new-deaths-div{
+    height: 50vh;
+    background-color: #D7BDE2 ;
+    border: 10px solid white;
+}
+#global-new-cases-div{
+    height: 50vh;
+    background-color: #F0B27A ;
+    border: 10px solid white;
+}
+#global-new-cases-div h1,#global-new-deaths-div h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 45%;
+}
+#global-new-cases-div b,#global-new-deaths-div b{
+    color: rgb(226, 113, 47);
+}

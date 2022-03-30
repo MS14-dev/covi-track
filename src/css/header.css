@@ -1,0 +1,13 @@
+#header_div{
+    background-color: #34495E;
+}
+#header_div_outer{
+    position: fixed;
+    z-index: 2;
+}
+#header_title{
+    color: #BDC3C7;
+    text-align: right;
+}#header_update{
+    color: #F7DC6F ;
+}

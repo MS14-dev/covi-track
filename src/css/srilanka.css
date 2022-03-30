@@ -1,0 +1,34 @@
+#sl-outer-div{
+    margin-top: 10%;
+}
+#global-outer-div{
+    margin-top: 10%;
+}
+
+#sl-time-h3{
+    float: right;
+    text-align: center;
+    color: gray;
+}#sl-time-h3 b{
+    color: black;
+}
+.sl-h3{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 45%;
+
+}.sl-h3 b{
+    color: chocolate;
+}
+.sl-new-cases-div{
+box-sizing: border-box;
+background-color: #000000;
+height: 50vh;
+border: 10px solid white;
+}.sl-new-deaths-div{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: 50vh;
+    border: 10px solid white;
+}

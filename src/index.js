@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style.css';
 import App from './App';
 //import reportWebVitals from './reportWebVitals';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,10 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
-  
-    <App />,
-  
-  document.getElementById('root')
+     <App />
+    ,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
